@@ -10,6 +10,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { SwiperModule, SwiperConfigInterface,
   SWIPER_CONFIG } from 'ngx-swiper-wrapper';
+import { CardSwipeComponent } from './components/card-swipe/card-swipe.component';
   const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   observer: true,
   direction: 'horizontal',
@@ -22,7 +23,7 @@ import { SwiperModule, SwiperConfigInterface,
   imports:      [   SwiperModule,
     BrowserModule,
     FlexLayoutModule, FormsModule ],
-  declarations: [ AppComponent, MenuComponent, DefaultComponent ],
+  declarations: [ AppComponent, MenuComponent, DefaultComponent, CardSwipeComponent ],
   bootstrap:    [ AppComponent ],
     providers: [
     {

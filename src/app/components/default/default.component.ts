@@ -10,16 +10,8 @@ import { SwiperComponent, SwiperDirective, SwiperConfigInterface,
 })
 export class DefaultComponent implements OnInit {
 
-  public config: SwiperConfigInterface = {
-    // a11y: true,
-    // direction: 'horizontal',
-    // slidesPerView: 1,
-    // keyboard: true,
-    // mousewheel: true,
-    // scrollbar: false,
-    // navigation: true,
+  public config: SwiperConfigInterface = {  
      pagination: true,
-   //  loop:true
   };
   constructor() { }
 
